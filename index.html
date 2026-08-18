@@ -26,7 +26,7 @@
   </style>
 </head>
 <body>
-  <main class="cabinet"><section class="screen" aria-label="10-minute countdown timer"><div class="content"><p class="status" id="status">SYSTEM READY<span class="cursor" aria-hidden="true"></span></p><div class="display" id="display" role="timer" aria-live="polite">10:00</div><div class="controls"><button type="button" id="start">START</button><button type="button" id="pause">PAUSE</button><button type="button" id="reset">RESET</button></div><p class="hint">MOROI TECHNOLOGIES // INITIALIZED</p></div></section></main>
+  <main class="cabinet"><section class="screen" aria-label="10-minute countdown timer"><div class="content"><p class="status" id="status">SYSTEM READY<span class="cursor" aria-hidden="true"></span></p><div class="display" id="display" role="timer" aria-live="polite">10:00</div><div class="controls"><button type="button" id="start">START</button><button type="button" id="pause">PAUSE</button><button type="button" id="reset">RESET</button></div><p class="hint"> MOROI TECHNOLOGIES // INITIALIZED</p></div></section></main>
   <script>
     const initialSeconds = 600; let secondsLeft = initialSeconds; let intervalId = null; let audioContext = null; let alarmId = null;
     const display = document.getElementById('display'), status = document.getElementById('status'), screen = document.querySelector('.screen');
