@@ -1,0 +1,18 @@
+{
+  "name": "CRT 10 Minute Timer",
+  "short_name": "CRT Timer",
+  "description": "A 10-minute CRT-style countdown timer.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#060807",
+  "theme_color": "#060807",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
